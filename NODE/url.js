@@ -1,6 +1,6 @@
 const url = require('url');  
 
-const address = "http://127.0.0.1:5500/login.html";
+const address = "http://127.0.0.1:5500/NODE/httpmodules/index.html";
 const parseaddress = url.parse(address, true);  
 console.log(parseaddress)
 
